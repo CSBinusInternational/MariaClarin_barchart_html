@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+body{
+    background-image:url('https://cdn.discordapp.com/attachments/906865720900616237/911997394726584360/Untitled_design_1.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+main{
+  min-height:45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bars{
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.bar-name{
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.bar-bar{
+  height: 14px;
+  background: #282828;
+  border-radius: 3px;
+}
+
+.bar-per{
+  height: 14px;
+  background: #00DBE6;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+
+.bar-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.bar-per::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #f1f1f1;
+  top: -20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+@keyframes fillBars{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+.introduction{
+    color:white;
+    font-family: "Ubuntu", sans-serif;
+    max-width: 300px;
+    margin: 100px 50px 50px 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    padding-top:20px;
+    padding-left:30px;
+}
+.btn{
+    border: 1px  white;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 1px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    background: #5B6060;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    color:#04FF85;
+}
+
+.title{
+  color:white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
