@@ -47,27 +47,27 @@ main{
     margin-top: 50px;
 }
 .pie {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
     background: conic-gradient(#00DCFF   24.7%, #FFD851    24.7% 45.9%, #00C809   45.9% 100%);
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
+    margin-top: 50px;
 }
 .introduction{
     color:white;
     font-family: "Ubuntu", sans-serif;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 20px;
     font-weight: bold;
     text-align:center;
 }
 
-
 #legenda {
-  margin-left: 20px;
-
-  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
 }
 
 .entry {
@@ -76,38 +76,27 @@ main{
 }
 
 .entry-color {
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: 5px;
 }
 
 .entry-text {
   margin-left: 5px;
+  margin-right: auto;
+  color: white;
+  font-size: 25px;
 }
 
-#color-red {
-  background-color: red;
+#color-3 {
+  background-color: #00C809;
 }
 
-#color-orange {
-  background-color: orange;
+#color-2 {
+  background-color: #FFD851;
 }
 
-#color-yellow {
-  background-color: yellow;
-}
-
-#color-green {
-  background-color: green;
-}
-
-#color-blue {
-  background-color: blue;
-}
-
-#color-black {
-  background-color: black;
-}
-
-#color-brown {
-  background-color: brown;
+#color-1 {
+  background-color: #00DCFF;
 }
