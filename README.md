@@ -3,6 +3,9 @@
 * Class name : L1AC
 * Course : Human Computer Interaction (COMP6800001) - Individual Project
 
+## Live Link 
+https://mariaclarin.github.io/MariaClarin_barchart_html/
+
 ## File Directory
 * index html : home page/landing page of the website
 * style.css : CSS file used for index.html
